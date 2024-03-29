@@ -1,6 +1,6 @@
 interface Eclairage {
     fun allumer()
-    fun etaindre()
+    fun eteindre()
     fun intensifier()
     fun diminuer()
     fun etat(): Int
