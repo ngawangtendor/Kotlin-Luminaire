@@ -1,7 +1,4 @@
-class AmpouleIncandescente: Eclairage {
-    /**
-     * etat de la lampe : 0 éteinte, 10 allumée pleine intensité
-     */
+class AmpouleLed : Eclairage{
     var etat = 0
 
     /**
@@ -18,7 +15,7 @@ class AmpouleIncandescente: Eclairage {
      */
     private fun probaPanne(): Int {
         val alea = (0..100).random() // generated random from 0 to 100 included
-        return if (alea < 10) {
+        return if (alea < 1) {
             -1
         } else 0
     }
