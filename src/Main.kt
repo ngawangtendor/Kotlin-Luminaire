@@ -1,5 +1,6 @@
 fun main() {
-    val eclairage = AmpouleTube();
+
+    val eclairage = Luminaire()
 
     /**
      * Cycles d'éclairage et d'extinction d'une ampoule
